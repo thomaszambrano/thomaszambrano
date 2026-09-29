@@ -1,8 +1,9 @@
 <h1 align="center">Hey, I'm Thomas 👋</h1>
 
 <p align="center">
-  <b>Software Engineering Student @ EAFIT University · Medellín, Colombia</b><br/>
-  Backend systems · AI pipelines · Real-world deployments
+  <b>Software Engineering Student @ EAFIT University · Co-Founder of Iglu · Medellín, Colombia</b><br/>
+  Backend systems · AI agents · Real-time pipelines<br/>
+  🇪🇺 <b>Open to software engineering internships in Europe</b>
 </p>
 
 <p align="center">
@@ -45,10 +46,10 @@ Currently focused on: **agentic AI systems**, **LLM orchestration**, and **event
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
 **AI & LLMs**
 
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white)
@@ -57,8 +58,17 @@ Currently focused on: **agentic AI systems**, **LLM orchestration**, and **event
 
 ## Featured Projects
 
+### 🚗 [Iglu — Real-Time Driver Monitoring](https://github.com/thomaszambrano/App-Iglu)
+> **Startup I co-founded** · Co-Founder & Lead Engineer
+
+Fleet-safety platform: real-time GPS telemetry per driver plus on-device drowsiness detection. The open-source detection engine runs MediaPipe Face Landmarker (478 3D landmarks) in the browser via WASM, fuses eye closure, yawning, head tilt and stillness into a 0–100 fatigue score, and never uploads a frame.
+
+`React 19` `TypeScript` `MediaPipe (WASM)` `WebRTC` `Python/OpenCV` `FastAPI` `Supabase` `Capacitor (Android)`
+
+---
+
 ### 🤖 [Sentinel — Agentic DevOps](https://github.com/nicolas344/Sentinel-SoftServe)
-> University project for **SoftServe**
+> Industry project with **SoftServe** · Backend & AI Engineer
 
 AI co-pilot for DevOps incident response. Ingests Prometheus alerts, correlates Loki logs, and runs a LangGraph agent that performs root-cause analysis via RAG over internal runbooks — streamed in real time via Supabase.
 
@@ -66,21 +76,12 @@ AI co-pilot for DevOps incident response. Ingests Prometheus alerts, correlates 
 
 ---
 
-### 🏥 [WhatsApp AI Scheduling Agent — Hospital de Guarne](https://github.com/thomaszambrano/Guarne-demo)
-> Freelance project for a real hospital in Antioquia, Colombia
+### 🏥 WhatsApp AI Scheduling Agent — Hospital de Guarne
+> Freelance · real hospital in Antioquia, Colombia
 
 Event-driven backend that automates medical appointment scheduling over WhatsApp. Messages route through Evolution API → FastAPI webhook → Redis Streams → Gemini LLM → hospital HIS.
 
 `FastAPI` `LangGraph` `Google Gemini` `Redis Streams` `Supabase` `Docker Compose`
-
----
-
-### 🚗 [Iglu — Real-Time Driver Monitoring](https://github.com/thomaszambrano/App-Iglu)
-> Freelance project
-
-Fleet monitoring system with real-time GPS telemetry per driver and client-side drowsiness detection via MediaPipe. Fatigue events streamed to a central backend.
-
-`FastAPI` `Supabase` `WebRTC` `Capacitor (Android)` `TypeScript`
 
 ---
 
@@ -103,5 +104,5 @@ On-chain passport system for physical product certification. Brands issue immuta
 ---
 
 <p align="center">
-  <i>Open to backend and AI engineering roles · tosorioz@eafit.edu.co</i>
+  <i>Open to software engineering internships in Europe · tosorioz@eafit.edu.co</i>
 </p>
