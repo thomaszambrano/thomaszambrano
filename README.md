@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Thomas 👋</h1>
 
 <p align="center">
-  <b>Software Engineering Student @ EAFIT University · Co-Founder of Iglu · Medellín, Colombia</b><br/>
+  <b>Software Engineering Student @ EAFIT University · Co-Founder of Zolutio Tech · Medellín, Colombia</b><br/>
   Backend systems · AI agents · Real-time pipelines<br/>
   🇪🇺 <b>Open to software engineering internships in Europe</b>
 </p>
